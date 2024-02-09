@@ -1,0 +1,47 @@
+/* Réinitialisation des marges et des rembourrages */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, form, label {
+    margin: 0;
+    padding: 0;
+}
+
+/* Réinitialisation des styles par défaut */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+header {
+    background-color: #333;
+    text-align: center;
+}
+
+nav{
+    display: inline-block;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+.bordure {
+    border: 2px solid #333; /* Bordure de 2 pixels solide de couleur grise */
+    padding: 20px; /* Ajoute un espace de 20 pixels à l'intérieur de la section */
+}
