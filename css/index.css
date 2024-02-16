@@ -10,8 +10,26 @@ body {
     line-height: 1.5;
 }
 
+.try {
+    float: left;
+    margin: 2px;
+}
+
 header {
-    background-color: #333;
+    background-color: #4E0078;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
     text-align: center;
 }
 
@@ -39,9 +57,4 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: #555;
-}
-
-.bordure {
-    border: 2px solid #333; /* Bordure de 2 pixels solide de couleur grise */
-    padding: 20px; /* Ajoute un espace de 20 pixels à l'intérieur de la section */
 }
